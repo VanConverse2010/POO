@@ -3,12 +3,15 @@
  */
 package poo;
 
+import poo.prueba.prueba;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
     }
 
     public static void main(String[] args) {
+        prueba.main(args);
         System.out.println(new App().getGreeting());
     }
 }
